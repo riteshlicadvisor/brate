@@ -8237,5 +8237,76 @@
       "saTo": "",
       "fabRate": 185
     }
+  ],
+  "Mode-Rebate": [
+    {
+      "mode": "Yearly",
+      "rebatePercent": 3
+    },
+    {
+      "mode": "Half-Yearly",
+      "rebatePercent": 1.5
+    },
+    {
+      "mode": "Quarterly",
+      "rebatePercent": 0
+    },
+    {
+      "mode": "Monthly",
+      "rebatePercent": 0
+    },
+    {
+      "mode": "SSS",
+      "rebatePercent": 0
+    }
+  ],
+  "SA-Rebate": [
+    {
+      "saFrom": 100000,
+      "saTo": 295000,
+      "rebatePer1000": 0
+    },
+    {
+      "saFrom": 300000,
+      "saTo": 495000,
+      "rebatePer1000": 1
+    },
+    {
+      "saFrom": 500000,
+      "saTo": 995000,
+      "rebatePer1000": 1.5
+    },
+    {
+      "saFrom": 1000000,
+      "saTo": "",
+      "rebatePer1000": 1.75
+    }
+  ],
+  "Special-SA-Rebate": [
+    {
+      "pptFrom": 5,
+      "pptTo": 9,
+      "rebatePer1000": 2.25
+    },
+    {
+      "pptFrom": 10,
+      "pptTo": 14,
+      "rebatePer1000": 1.5
+    },
+    {
+      "pptFrom": 15,
+      "pptTo": 19,
+      "rebatePer1000": 1.25
+    },
+    {
+      "pptFrom": 20,
+      "pptTo": 24,
+      "rebatePer1000": 1.15
+    },
+    {
+      "pptFrom": 25,
+      "pptTo": 57,
+      "rebatePer1000": 1
+    }
   ]
 }
