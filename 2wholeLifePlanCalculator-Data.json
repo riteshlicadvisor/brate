@@ -1,0 +1,1386 @@
+{
+  "Plan-Details": [
+    {
+      "planNumber ": 2,
+      "planName": "Endowment Plan",
+      "minEntryAge": 12,
+      "minEntryAgeCalculationMathod": "NearestBirthday",
+      "maxEntryAge": 65,
+      "maxEntryAgeCalculationMathod": "NearestBirthday",
+      "maturityAge": 75,
+      "maturityAgeCalculationMathod": "LastBirthday",
+      "minPolicyTerm": 5,
+      "maxPolicyTerm": 62,
+      "premiumPayingTerm": {
+        "type": "WhicheverIsMore",
+        "rule1": 35,
+        "rule2": {
+          "targetAge": 80,
+          "formula": "targetAge - entryAge"
+        },
+        "logicalOutput": "MAX(rule1, rule2)"
+      },
+      "minSA": 50000,
+      "maxSA": "NoLimit"
+    }
+  ],
+  "Premium-Rates": [
+    {
+      "age": 18,
+      "premiumRatePer1000": 19.2
+    },
+    {
+      "age": 19,
+      "premiumRatePer1000": 19.65
+    },
+    {
+      "age": 20,
+      "premiumRatePer1000": 20.15
+    },
+    {
+      "age": 21,
+      "premiumRatePer1000": 20.65
+    },
+    {
+      "age": 22,
+      "premiumRatePer1000": 21.15
+    },
+    {
+      "age": 23,
+      "premiumRatePer1000": 21.75
+    },
+    {
+      "age": 24,
+      "premiumRatePer1000": 22.3
+    },
+    {
+      "age": 25,
+      "premiumRatePer1000": 22.9
+    },
+    {
+      "age": 26,
+      "premiumRatePer1000": 23.55
+    },
+    {
+      "age": 27,
+      "premiumRatePer1000": 24.25
+    },
+    {
+      "age": 28,
+      "premiumRatePer1000": 24.95
+    },
+    {
+      "age": 29,
+      "premiumRatePer1000": 25.7
+    },
+    {
+      "age": 30,
+      "premiumRatePer1000": 26.5
+    },
+    {
+      "age": 31,
+      "premiumRatePer1000": 27.35
+    },
+    {
+      "age": 32,
+      "premiumRatePer1000": 28.2
+    },
+    {
+      "age": 33,
+      "premiumRatePer1000": 29.1
+    },
+    {
+      "age": 34,
+      "premiumRatePer1000": 30.05
+    },
+    {
+      "age": 35,
+      "premiumRatePer1000": 31.1
+    },
+    {
+      "age": 36,
+      "premiumRatePer1000": 32.15
+    },
+    {
+      "age": 37,
+      "premiumRatePer1000": 33.25
+    },
+    {
+      "age": 38,
+      "premiumRatePer1000": 34.45
+    },
+    {
+      "age": 39,
+      "premiumRatePer1000": 35.7
+    },
+    {
+      "age": 40,
+      "premiumRatePer1000": 37
+    },
+    {
+      "age": 41,
+      "premiumRatePer1000": 38.35
+    },
+    {
+      "age": 42,
+      "premiumRatePer1000": 39.8
+    },
+    {
+      "age": 43,
+      "premiumRatePer1000": 41.3
+    },
+    {
+      "age": 44,
+      "premiumRatePer1000": 42.9
+    },
+    {
+      "age": 45,
+      "premiumRatePer1000": 44.6
+    },
+    {
+      "age": 46,
+      "premiumRatePer1000": 46.3
+    },
+    {
+      "age": 47,
+      "premiumRatePer1000": 48.05
+    },
+    {
+      "age": 48,
+      "premiumRatePer1000": 49.9
+    },
+    {
+      "age": 49,
+      "premiumRatePer1000": 51.85
+    },
+    {
+      "age": 50,
+      "premiumRatePer1000": 53.95
+    },
+    {
+      "age": 51,
+      "premiumRatePer1000": 56.15
+    },
+    {
+      "age": 52,
+      "premiumRatePer1000": 58.5
+    },
+    {
+      "age": 53,
+      "premiumRatePer1000": 60.95
+    },
+    {
+      "age": 54,
+      "premiumRatePer1000": 63.6
+    },
+    {
+      "age": 55,
+      "premiumRatePer1000": 66.35
+    },
+    {
+      "age": 56,
+      "premiumRatePer1000": 69.3
+    },
+    {
+      "age": 57,
+      "premiumRatePer1000": 72.4
+    },
+    {
+      "age": 58,
+      "premiumRatePer1000": 75.7
+    },
+    {
+      "age": 59,
+      "premiumRatePer1000": 79.15
+    },
+    {
+      "age": 60,
+      "premiumRatePer1000": 82.85
+    }
+  ],
+  "Bonus-Rates": [
+    {
+      "year": "FY2003-04",
+      "saFrom": 50000,
+      "saTo": "NoLimit",
+      "bonusRate": 80
+    },
+    {
+      "year": "FY2004-05",
+      "saFrom": 50000,
+      "saTo": "NoLimit",
+      "bonusRate": 71
+    },
+    {
+      "year": "FY2005-06",
+      "saFrom": 50000,
+      "saTo": "NoLimit",
+      "bonusRate": 66
+    },
+    {
+      "year": "FY2006-07",
+      "saFrom": 50000,
+      "saTo": "NoLimit",
+      "bonusRate": 70
+    },
+    {
+      "year": "FY2007-08",
+      "saFrom": 50000,
+      "saTo": "NoLimit",
+      "bonusRate": 70
+    },
+    {
+      "year": "FY2008-09",
+      "saFrom": 50000,
+      "saTo": "NoLimit",
+      "bonusRate": 70
+    },
+    {
+      "year": "FY2009-10",
+      "saFrom": 50000,
+      "saTo": "NoLimit",
+      "bonusRate": 70
+    },
+    {
+      "year": "FY2010-11",
+      "saFrom": 50000,
+      "saTo": "NoLimit",
+      "bonusRate": 70
+    },
+    {
+      "year": "FY2011-12",
+      "saFrom": 50000,
+      "saTo": "NoLimit",
+      "bonusRate": 70
+    },
+    {
+      "year": "FY2012-13",
+      "saFrom": 50000,
+      "saTo": "NoLimit",
+      "bonusRate": 70
+    },
+    {
+      "year": "FY2013-14",
+      "saFrom": 50000,
+      "saTo": "NoLimit",
+      "bonusRate": 70
+    },
+    {
+      "year": "FY2014-15",
+      "saFrom": 50000,
+      "saTo": "NoLimit",
+      "bonusRate": 70
+    },
+    {
+      "year": "FY2015-16",
+      "saFrom": 50000,
+      "saTo": "NoLimit",
+      "bonusRate": 70
+    },
+    {
+      "year": "FY2016-17",
+      "saFrom": 50000,
+      "saTo": "NoLimit",
+      "bonusRate": 70
+    },
+    {
+      "year": "FY2017-18",
+      "saFrom": 50000,
+      "saTo": "NoLimit",
+      "bonusRate": 70
+    },
+    {
+      "year": "FY2018-19",
+      "saFrom": 50000,
+      "saTo": "NoLimit",
+      "bonusRate": 70
+    },
+    {
+      "year": "FY2019-20",
+      "saFrom": 50000,
+      "saTo": "NoLimit",
+      "bonusRate": 70
+    },
+    {
+      "year": "FY2020-21",
+      "saFrom": 50000,
+      "saTo": 100000,
+      "bonusRate": 65
+    },
+    {
+      "year": "FY2020-21",
+      "saFrom": 100001,
+      "saTo": "NoLimit",
+      "bonusRate": 66
+    },
+    {
+      "year": "FY2021-22",
+      "saFrom": 50000,
+      "saTo": 100000,
+      "bonusRate": 65
+    },
+    {
+      "year": "FY2021-22",
+      "saFrom": 100001,
+      "saTo": "NoLimit",
+      "bonusRate": 66
+    },
+    {
+      "year": "FY2022-23",
+      "saFrom": 50000,
+      "saTo": 100000,
+      "bonusRate": 65
+    },
+    {
+      "year": "FY2022-23",
+      "saFrom": 100001,
+      "saTo": "NoLimit",
+      "bonusRate": 66
+    },
+    {
+      "year": "FY2023-24",
+      "saFrom": 50000,
+      "saTo": 100000,
+      "bonusRate": 65
+    },
+    {
+      "year": "FY2023-24",
+      "saFrom": 100001,
+      "saTo": "NoLimit",
+      "bonusRate": 66
+    },
+    {
+      "year": "FY2024-25",
+      "saFrom": 50000,
+      "saTo": 100000,
+      "bonusRate": 65
+    },
+    {
+      "year": "FY2024-25",
+      "saFrom": 100001,
+      "saTo": "NoLimit",
+      "bonusRate": 66
+    },
+    {
+      "year": "FY2025-26",
+      "saFrom": 50000,
+      "saTo": 100000,
+      "bonusRate": 65
+    },
+    {
+      "year": "FY2025-26",
+      "saFrom": 100001,
+      "saTo": "NoLimit",
+      "bonusRate": 66
+    }
+  ],
+  "Final-Bonus": [
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 5,
+      "yearsTo": 14,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 0
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 5,
+      "yearsTo": 14,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 0
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 5,
+      "yearsTo": 14,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 0
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 5,
+      "yearsTo": 14,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 0
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 15,
+      "yearsTo": 15,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 0
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 15,
+      "yearsTo": 15,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 0
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 15,
+      "yearsTo": 15,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 10
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 15,
+      "yearsTo": 15,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 20
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 16,
+      "yearsTo": 16,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 0
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 16,
+      "yearsTo": 16,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 0
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 16,
+      "yearsTo": 16,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 15
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 16,
+      "yearsTo": 16,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 25
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 17,
+      "yearsTo": 17,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 0
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 17,
+      "yearsTo": 17,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 10
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 17,
+      "yearsTo": 17,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 20
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 17,
+      "yearsTo": 17,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 30
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 18,
+      "yearsTo": 18,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 10
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 18,
+      "yearsTo": 18,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 15
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 18,
+      "yearsTo": 18,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 25
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 18,
+      "yearsTo": 18,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 35
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 19,
+      "yearsTo": 19,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 15
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 19,
+      "yearsTo": 19,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 20
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 19,
+      "yearsTo": 19,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 30
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 19,
+      "yearsTo": 19,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 50
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 20,
+      "yearsTo": 20,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 20
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 20,
+      "yearsTo": 20,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 25
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 20,
+      "yearsTo": 20,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 40
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 20,
+      "yearsTo": 20,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 70
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 21,
+      "yearsTo": 21,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 25
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 21,
+      "yearsTo": 21,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 30
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 21,
+      "yearsTo": 21,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 50
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 21,
+      "yearsTo": 21,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 100
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 22,
+      "yearsTo": 22,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 30
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 22,
+      "yearsTo": 22,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 50
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 22,
+      "yearsTo": 22,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 80
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 22,
+      "yearsTo": 22,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 150
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 23,
+      "yearsTo": 23,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 35
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 23,
+      "yearsTo": 23,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 100
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 23,
+      "yearsTo": 23,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 150
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 23,
+      "yearsTo": 23,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 250
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 24,
+      "yearsTo": 24,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 70
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 24,
+      "yearsTo": 24,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 150
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 24,
+      "yearsTo": 24,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 230
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 24,
+      "yearsTo": 24,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 350
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 25,
+      "yearsTo": 25,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 170
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 25,
+      "yearsTo": 25,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 250
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 25,
+      "yearsTo": 25,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 330
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 25,
+      "yearsTo": 25,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 450
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 26,
+      "yearsTo": 26,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 270
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 26,
+      "yearsTo": 26,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 350
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 26,
+      "yearsTo": 26,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 430
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 26,
+      "yearsTo": 26,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 550
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 27,
+      "yearsTo": 27,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 370
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 27,
+      "yearsTo": 27,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 450
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 27,
+      "yearsTo": 27,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 540
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 27,
+      "yearsTo": 27,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 670
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 28,
+      "yearsTo": 28,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 470
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 28,
+      "yearsTo": 28,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 550
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 28,
+      "yearsTo": 28,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 650
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 28,
+      "yearsTo": 28,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 790
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 29,
+      "yearsTo": 29,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 570
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 29,
+      "yearsTo": 29,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 650
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 29,
+      "yearsTo": 29,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 760
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 29,
+      "yearsTo": 29,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 910
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 30,
+      "yearsTo": 30,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 670
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 30,
+      "yearsTo": 30,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 750
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 30,
+      "yearsTo": 30,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 900
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 30,
+      "yearsTo": 30,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 1100
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 31,
+      "yearsTo": 31,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 800
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 31,
+      "yearsTo": 31,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 900
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 31,
+      "yearsTo": 31,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 1100
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 31,
+      "yearsTo": 31,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 1300
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 32,
+      "yearsTo": 32,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 950
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 32,
+      "yearsTo": 32,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 1050
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 32,
+      "yearsTo": 32,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 1300
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 32,
+      "yearsTo": 32,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 1550
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 33,
+      "yearsTo": 33,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 1100
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 33,
+      "yearsTo": 33,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 1200
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 33,
+      "yearsTo": 33,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 1550
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 33,
+      "yearsTo": 33,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 1800
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 34,
+      "yearsTo": 34,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 1250
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 34,
+      "yearsTo": 34,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 1350
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 34,
+      "yearsTo": 34,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 1700
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 34,
+      "yearsTo": 34,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 2050
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 35,
+      "yearsTo": 35,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 1400
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 35,
+      "yearsTo": 35,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 1500
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 35,
+      "yearsTo": 35,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 1850
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 35,
+      "yearsTo": 35,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 2300
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 36,
+      "yearsTo": 36,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 1550
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 36,
+      "yearsTo": 36,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 1650
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 36,
+      "yearsTo": 36,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 2050
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 36,
+      "yearsTo": 36,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 2550
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 37,
+      "yearsTo": 37,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 1700
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 37,
+      "yearsTo": 37,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 1800
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 37,
+      "yearsTo": 37,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 2250
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 37,
+      "yearsTo": 37,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 2800
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 38,
+      "yearsTo": 38,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 1850
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 38,
+      "yearsTo": 38,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 1950
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 38,
+      "yearsTo": 38,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 2500
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 38,
+      "yearsTo": 38,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 3050
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 39,
+      "yearsTo": 39,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 2000
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 39,
+      "yearsTo": 39,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 2100
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 39,
+      "yearsTo": 39,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 2750
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 39,
+      "yearsTo": 39,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 3300
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 40,
+      "yearsTo": 55,
+      "saFrom": 0,
+      "saTo": 25000,
+      "fabRate": 2150
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 40,
+      "yearsTo": 55,
+      "saFrom": 25001,
+      "saTo": 50000,
+      "fabRate": 2500
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 40,
+      "yearsTo": 55,
+      "saFrom": 50001,
+      "saTo": 199999,
+      "fabRate": 3000
+    },
+    {
+      "fromFinancialYear": 2019,
+      "toFinancialYear": 2026,
+      "yearsFrom": 40,
+      "yearsTo": 55,
+      "saFrom": 200000,
+      "saTo": "NoLimit",
+      "fabRate": 3550
+    }
+  ],
+  "Mode-Rebate": [
+    {
+      "mode": "Yearly",
+      "rebatePercent": 3
+    },
+    {
+      "mode": "Half-Yearly",
+      "rebatePercent": 1.5
+    },
+    {
+      "mode": "Quarterly",
+      "rebatePercent": 0
+    },
+    {
+      "mode": "Monthly",
+      "rebatePercent": 0
+    }
+  ],
+  "SA-Rebate": [
+    {
+      "saFrom": 50000,
+      "saTo": 50000,
+      "rebatePer1000": 0
+    },
+    {
+      "saFrom": 50001,
+      "saTo": 100000,
+      "rebatePer1000": 1
+    },
+    {
+      "saFrom": 100001,
+      "saTo": "NoLimit",
+      "rebatePer1000": 2
+    }
+  ]
+}
