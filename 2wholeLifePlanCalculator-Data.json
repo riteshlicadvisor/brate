@@ -1315,7 +1315,7 @@
       "fromFinancialYear": 2019,
       "toFinancialYear": 2026,
       "yearsFrom": 40,
-      "yearsTo": 55,
+      "yearsTo": "NoLimit",
       "saFrom": 0,
       "saTo": 25000,
       "fabRate": 2150
@@ -1324,7 +1324,7 @@
       "fromFinancialYear": 2019,
       "toFinancialYear": 2026,
       "yearsFrom": 40,
-      "yearsTo": 55,
+      "yearsTo": "NoLimit",
       "saFrom": 25001,
       "saTo": 50000,
       "fabRate": 2500
@@ -1333,7 +1333,7 @@
       "fromFinancialYear": 2019,
       "toFinancialYear": 2026,
       "yearsFrom": 40,
-      "yearsTo": 55,
+      "yearsTo": "NoLimit",
       "saFrom": 50001,
       "saTo": 199999,
       "fabRate": 3000
@@ -1342,7 +1342,7 @@
       "fromFinancialYear": 2019,
       "toFinancialYear": 2026,
       "yearsFrom": 40,
-      "yearsTo": 55,
+      "yearsTo": "NoLimit",
       "saFrom": 200000,
       "saTo": "NoLimit",
       "fabRate": 3550
